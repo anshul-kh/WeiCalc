@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mass Calculator</title>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h1>Weight Calculator</h1>
+
+        <p>Let's see how much are you burden for a planet:</p>
+
+        <form>
+          <label for="planet">Choose a Planet:</label>
+          <select name="planet" id="planet">
+            <option value="Moon">Moon</option>
+            <option value="Mars">Mars</option>
+            <option value="Jupiter">Jupiter</option>
+            <option value="Saturn">Saturn</option>
+            <option value="Venus">Venus</option>
+            
+          </select>
+          <br /><br />
+          <p>Enter Your Weight On Earth(Kg)</p>
+          <input id="weight" type="number" required value="10kg" />
+          <button type="button" id="button">Submit</button>
+        </form>
+          <h2 id="result">
+          </h2>
+      </div>
+    </section>
+  </body>
+
+  <script src="/index.js"></script>
+</html>
