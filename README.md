@@ -8,7 +8,7 @@
 
         It is a simple project focused on javscript learning ,so not much focused towards styling 
 
-    <br>
+    
 
         Let's look at [WeiCal](https://anshul-kh.github.io/WeiCalc/) 
 
